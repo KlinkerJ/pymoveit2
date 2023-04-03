@@ -15,8 +15,11 @@ install(PROGRAMS
     ${EXAMPLES_DIR}/ex_gripper_command.py
     ${EXAMPLES_DIR}/ex_gripper.py
     ${EXAMPLES_DIR}/ex_joint_goal.py
+    ${EXAMPLES_DIR}/ex_joint_goal_ur.py
     ${EXAMPLES_DIR}/ex_pose_goal.py
+    ${EXAMPLES_DIR}/ex_pose_goal_ur.py
     ${EXAMPLES_DIR}/ex_servo.py
+    ${EXAMPLES_DIR}/ex_servo_ur.py
     DESTINATION lib/${PROJECT_NAME}
 )
 
